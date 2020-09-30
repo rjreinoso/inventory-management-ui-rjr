@@ -42,6 +42,6 @@ vcsInfo:
 
 partOf: ""
 
-connectsTo: "inventory-management-bff-rjr"
+connectsTo: inventory-management-bff-rjr
 
 runtime: js

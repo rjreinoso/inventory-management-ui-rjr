@@ -1,9 +1,3 @@
-export class StockItemService {
-    async listStockItems() {
-      return [];
-    }
-  }
-
 import * as superagent from 'superagent';
 
 export class StockItemService {
