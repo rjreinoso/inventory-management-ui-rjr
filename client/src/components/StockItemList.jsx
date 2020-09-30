@@ -16,7 +16,8 @@ class StockItemList extends Component {
   title = 'Stock Items';
   subtitle = 'This is the current inventory of items';
 
-  columns = ["name",
+  columns = [
+  "name",
   "description",
   "stock",
   "unitPrice",

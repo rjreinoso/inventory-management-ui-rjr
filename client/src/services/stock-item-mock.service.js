@@ -1,10 +1,6 @@
-export class StockItemMockService {
-    async listStockItems() {
-      return [];
-    }
-  }
 
-  import timer from '../util/timer';
+
+import timer from '../util/timer';
 
 export class StockItemMockService {
   async listStockItems() {

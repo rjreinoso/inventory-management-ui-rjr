@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import UIShell from "./components/UIShell";
 import "./App.scss";
+
 import {StockItemService} from "./services/stock-item.service";
+
 class App extends Component {
   constructor(props) {
     super(props);
+
     this.stockService = props.stockService || new StockItemService();
   }
+
   render() {
     return (
       <div className="App">
@@ -15,5 +19,4 @@ class App extends Component {
     );
   }
 }
-
-export default App; //Remember that this wasn't in the copy box.
+export default App;
