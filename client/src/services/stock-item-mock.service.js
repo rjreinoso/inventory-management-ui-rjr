@@ -1,5 +1,3 @@
-
-
 import timer from '../util/timer';
 
 export class StockItemMockService {
